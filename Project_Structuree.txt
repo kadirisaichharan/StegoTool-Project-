@@ -1,0 +1,19 @@
+/StegoToolProject
+    /Input
+        sample_image.jpg
+        secret_message.txt
+    /Output
+        stego_image.jpg  (optional, created by the program)
+    StegoTool.java
+    README.md
+    LICENSE (optional)
+
+
+## How to Run
+1. Install Java on your system.
+2. Place the cover image and message file in the `/Input` folder.
+3. Open a terminal in the project directory.
+4. Compile and run the program:
+   ```bash
+   javac StegoTool.java
+   java StegoTool
